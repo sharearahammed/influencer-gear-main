@@ -3,6 +3,12 @@
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
 }
 
 .btn {
@@ -16,7 +22,7 @@
 
 /* header style */
 header {
-    
+
     margin: 87px 120px 0 120px;
 }
 
@@ -158,6 +164,7 @@ footer {
     background-color: #0A0826;
     text-align: center;
     padding: 50px 0 50px 0;
+
 }
 
 .footer-contant h2 {
@@ -188,9 +195,10 @@ footer {
         margin: 35px 16px 22px 16px;
     }
 
-    nav{
-        text-align: center; 
+    nav {
+        text-align: center;
     }
+
     nav,
     .section-three {
         flex-direction: column;
@@ -245,6 +253,7 @@ footer {
     .card {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 8px;
     }
 
     .section-three {
@@ -255,11 +264,26 @@ footer {
     .section-three-img img {
         width: 299px;
         height: 188px;
+        margin-left: 14px;
     }
 
-    .footer {
-        width: 360px;
-        height: 211px;
+    .section-three-content h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .section-three-content p {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .button{
+        text-align: center;
+        margin-top: 44px;
+    }
+
+    footer {
+        width: 100%;
+        border: 10px solid #0A0826;
+        ;
     }
 
 }
