@@ -16,7 +16,7 @@
 
 /* header style */
 header {
-    max-width: 1440px;
+    
     margin: 87px 120px 0 120px;
 }
 
@@ -24,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 87px 120px 0;
 }
 
 nav h3 {
@@ -198,7 +199,7 @@ footer {
     .banner {
         flex-direction: column;
         flex-direction: column-reverse;
-        margin: 50px;
+        margin: 0 50px;
 
     }
 
