@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* header style */
+header {
+    max-width: 1440px;
+    margin: 87px 120px 0 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3 {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 34px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.banner-content .banner-title {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner-content .banner-para {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.banner-content .banner-btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-weight: 700;
+    padding: 10px 24px 10px 24px;
+    border: none;
+}
+
+/* main style */
+/* section one style */
+.section-one {
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-bottom: 100px;
+    background-color: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+    ;
+}
+
+.section-one-images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+/* section two style */
+.section-two{
+    margin: 0 196px 100px 196px;
+}
+.section-two-header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.card-box{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+width: 329px;
+height: 476px;
+}
+
+
+/* For mobile device */
+@media screen and (max-width:576px) {
+    header {
+        width: 100%;
+        margin: 35px 16px 22px 16px;
+    }
+
+    nav,
+    .banner {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content .banner-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .section-one-images {
+        display: grid;
+        margin-left: 5px;
+    }
+
+    #img {
+        padding: 5px;
+    }
+
+}
