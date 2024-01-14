@@ -188,6 +188,9 @@ footer {
         margin: 35px 16px 22px 16px;
     }
 
+    nav{
+        text-align: center; 
+    }
     nav,
     .section-three {
         flex-direction: column;
