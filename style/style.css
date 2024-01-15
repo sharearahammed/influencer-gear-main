@@ -6,10 +6,6 @@
     padding: 0;
 }
 
-body {
-    max-width: 1440px;
-    width: 100%;
-}
 
 .btn {
     border-radius: 41px;
@@ -78,6 +74,8 @@ nav ul li {
 /* main style */
 main {
     margin-bottom: 50px;
+    max-width: 1440px;
+    width: 100%;
 }
 
 /* section one style */
@@ -164,17 +162,19 @@ footer {
     background-color: #0A0826;
     text-align: center;
     padding: 50px 0 50px 0;
+    max-width: 1512.800px;
+    margin: 50px solid #0A0826;
 
 }
 
-.footer-contant h2 {
+.footer-title {
     color: #FFF;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 3px;
 }
 
-.footer-contant p {
+.footer-para {
     color: #D9DBE1;
     font-size: 14px;
     font-weight: 700;
@@ -271,11 +271,13 @@ footer {
         text-align: center;
         font-size: 24px;
     }
+
     .section-three-content p {
         text-align: center;
         font-size: 1rem;
     }
-    .button{
+
+    .button {
         text-align: center;
         margin-top: 44px;
     }
@@ -283,7 +285,6 @@ footer {
     footer {
         width: 100%;
         border: 10px solid #0A0826;
-        ;
     }
 
 }
